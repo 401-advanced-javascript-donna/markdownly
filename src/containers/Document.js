@@ -21,7 +21,7 @@ const Document = () => {
         </div>
       </>
   );
-}
+};
 
 Document.propTypes = {
   markdown: PropTypes.string,

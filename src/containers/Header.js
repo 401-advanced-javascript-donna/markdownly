@@ -24,7 +24,7 @@ const Header = () => {
       <Tabs tabs={tabs} changeTabs={changeTabs} deleteTab={deleteTab} />
     </div>
   );
-}
+};
 
 Header.propTypes = {
   tabs: PropTypes.array,

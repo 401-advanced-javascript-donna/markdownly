@@ -3,13 +3,16 @@
 
 .Editor {
   padding: 1em;
-  width: 50vw;
+  width: 45vw;
   height: 100vh;
   font-family: 'Roboto Mono', monospace;
-  font-size: 1.5em;
+  font-size: 1em;
   line-height: 1.5;
-  background: #272822;
+  background: #25282C;
   color: #F8F8F2;
   letter-spacing: 0.3px;
-	word-spacing: 1px;
+  word-spacing: 1px;
+  margin-left: 15px;
+  margin-right: 15px;
+
 }

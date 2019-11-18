@@ -6,7 +6,7 @@ const Tab = ({ title, changeTabs, deleteTab }) => {
   return (
     <div className={styles.Tab}>
       <h2 onClick={() => changeTabs(title)}>{title}</h2>
-      <button onClick={() => deleteTab(title)}>🗑</button>
+      <button onClick={() => deleteTab(title)}>X</button>
     </div>
   );
 };

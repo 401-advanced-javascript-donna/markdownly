@@ -1,11 +1,16 @@
 .Tabs {
   display: flex;
+  margin-bottom: 0px;
 
   li {
+    margin-left: -5px;
+    margin-right: 8px;
     padding: 0 5px;
-    margin: 5px;
     list-style: none;
-    border: 1px solid slategray;
+    background-color: #3B505D;
+    color: #D3D3BA;
+    border-top-right-radius: .6em;
+    border-top-left-radius: .6em;
   }
 
 }

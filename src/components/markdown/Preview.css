@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,700&display=swap');
+
+.Preview {
+  width: 45vw;
+  background: #D3D3BA;
+  padding: 1em;
+  font-family: 'Titillium Web', sans-serif;
+  color: #25282C;
+}

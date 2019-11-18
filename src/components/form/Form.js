@@ -17,7 +17,7 @@ const Form = ({ handleSubmit }) => {
   return (
     <form className={styles.Form} onSubmit={handleCreateFile}>
       <input type="text" name="title" value={title} onChange={handleChange} placeholder="New file name"></input>
-      <button>Create File</button>
+      <button>+</button>
     </form>
   );
 };

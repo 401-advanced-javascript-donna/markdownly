@@ -1,3 +1,8 @@
+# Lab 40
+- [Submission PR](https://github.com/401-advanced-javascript-donna/markdownly/pull/1)
+- [Travis](https://travis-ci.com/401-advanced-javascript-donna/markdownly)
+- [Deployed](https://confident-brown-cbff16.netlify.com/)
+
 # Markdownly
 
 We currently have a markdown editor that allows our customers to edit markdown

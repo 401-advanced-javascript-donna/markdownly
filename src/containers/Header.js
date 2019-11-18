@@ -6,7 +6,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import Form from '../components/form/Form';
 import Tabs from '../components/tabs/Tabs';
 import { switchTabs } from '../actions/documentActions';
-import styles from './Header.css';
 
 const Header = () => {
 
@@ -18,8 +17,7 @@ const Header = () => {
 
 
   return (
-    <div className={styles.Header}>
-      <h1>Markdown Editor</h1>
+    <div>
       <Form handleSubmit={handleSubmit} />
       <Tabs tabs={tabs} changeTabs={changeTabs} deleteTab={deleteTab} />
     </div>
